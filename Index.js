@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer').default;
 
-// This is the funciton to generate SVG content which can be opened within the browser.
+// This is the funciton to generate SVG content which can be opened within the browser2.
 const generateSVG = (text, textColor, shape, shapeColor) => {
   let shapeElement;
   switch (shape) {
