@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer').default;
 
-// Function to generate SVG content
+// This is the funciton to generate SVG content which can be opened within the browser.
 const generateSVG = (text, textColor, shape, shapeColor) => {
   let shapeElement;
   switch (shape) {
@@ -27,7 +27,7 @@ const generateSVG = (text, textColor, shape, shapeColor) => {
   return svgContent;
 };
 
-// Function to prompt the user for input
+// This is the function to prompt the user for input using inquirer.
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -55,7 +55,7 @@ const promptUser = () => {
   ]);
 };
 
-// Main function to run the application
+// This is the main function to run the application.
 const run = async () => {
   try {
     const answers = await promptUser();
