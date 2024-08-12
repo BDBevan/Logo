@@ -1,4 +1,4 @@
-# Logo creation application visa Node JS 
+# Logo creation application via Node JS 
 This is my logo creation application using node JS. It allows users to create am SVG logo using several command prompts to specify characters, font colour, background shape and background colour.
 Please see a list of features, screenshots and links to both the recorded demonstration video and repo below. 
 
